@@ -1,6 +1,7 @@
 # server.py
 import random
-from mcp.server.fastmcp import FastMCP
+#from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
 mcp = FastMCP("demo-server")
 
@@ -45,3 +46,4 @@ if __name__ == "__main__":
 
 #mcp inspector
 # uv run fastmcp dev main.py
+# uv run fastmcp run main.py
